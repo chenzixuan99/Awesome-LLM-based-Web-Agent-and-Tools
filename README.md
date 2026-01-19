@@ -77,6 +77,11 @@ format:
   - experiment environments, datasets or tasks
 ```
 
+- [Openwork](https://github.com/accomplish-ai/openwork)
+  - Accomplish AI
+  - Computer use, browser automation, multi-LLM support
+  - Real browser workflows with computer-use agents
+
 ## Dataset (Benchmark)
 ```
 format:

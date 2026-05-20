@@ -54,6 +54,13 @@ format:
   - code
   - experiment environments and datasets
 ```
+### 2026
+- [ClawBench: Can AI Agents Complete Everyday Online Tasks?](https://arxiv.org/abs/2604.08523)
+  - Yuxuan Zhang, Yubo Wang, Yipeng Zhu, Penghui Du, Junwen Miao, Xuan Lu, Wendong Xu, Yunzhuo Hao, Songcheng Cai, Xiaochen Wang, Huaisong Zhang, Xian Wu, Yi Lu, Minyi Lei, Kai Zou, Huifeng Yin, Ping Nie, Liang Chen, Dongfu Jiang, Wenhu Chen, Kelsey R. Allen
+  - Keyword: Live-website browser agents, Two-stage scoring (HTTP-interception + LLM judge), 153 V1 + 130 V2 tasks across 144+63 platforms
+  - Code: [official](https://github.com/reacher-z/ClawBench)
+  - Project: [claw-bench.com](https://claw-bench.com)
+
 ### 2024
 - [SeeClick: Harnessing GUI Grounding for Advanced Visual GUI Agents](https://arxiv.org/pdf/2401.10935.pdf)
   - Kanzhi Cheng, Qiushi Sun, Yougang Chu, Fangzhi Xu, Yantao Li, Jianbing Zhang, Zhiyong Wu
@@ -78,6 +85,11 @@ format:
 ```
 
 ## Dataset (Benchmark)
+
+- [ClawBench](https://github.com/reacher-z/ClawBench) ([paper](https://arxiv.org/abs/2604.08523), [HF dataset](https://huggingface.co/datasets/NAIL-Group/ClawBench), [HF traces](https://huggingface.co/datasets/TIGER-Lab/ClawBenchV2Trace))
+  - Live production websites (Uber Eats, Indeed, Craigslist, etc.); 283 tasks (V1 153 + V2 130) across 163 platforms; 15 life categories
+  - Two-stage scoring: HTTP-request interception at per-task URL/method schema (Stage 1) + LLM judge on intercepted payload (Stage 2)
+  - 5-layer trace bundle per run (recording.mp4, actions.jsonl, agent-messages.jsonl, requests.jsonl, interception.json, run-meta.json)
 ```
 format:
 - [title](benchmark link) [links]

@@ -16,6 +16,7 @@ A collection of some awesome public projects about LLM-based Web Agents and Tool
   - [Codebases](#codebases)
   - [Dataset (Benchmark)](#dataset)
   - [Tools](#tools)
+    - [2026](#2026)
   - [Compoarison](#comparison)
   - [Blogs](#blogs)
 
@@ -94,6 +95,12 @@ format:
   - keyword
   - experiment environments, datasets or tasks
 ```
+### 2026
+- [agent-qa](https://vostride.com) [GitHub](https://github.com/vostride/agent-qa)
+  - vostride
+  - Natural-language web/mobile QA, persistent memidex memory, validated self-improvement and run evidence
+  - Web, Android and iOS user-journey testing through CLI or MCP; [FSL-1.1-ALv2](https://vostride.com/license.md) restricts competing use; model and infrastructure costs are separate
+
 ### 2024
 - [Llama3](https://github.com/meta-llama/llama3)
   - Meta

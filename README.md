@@ -118,6 +118,6 @@ format:
 
 ## Blogs
 
+## Agent-Accessible Directories & MCP Servers
 
-
-
+- [No Stairs Please MCP](https://nostairsplease.com/mcp) — Remote MCP directory for live music venues, stage specs, and booking contacts across all 50 US states ([nostairsplease.com](https://nostairsplease.com/)).
